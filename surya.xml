@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device tree -->
+  <project path="device/xiaomi/surya" name="android_device_xiaomi_surya" remote="GloboPatro" revision="lineage-18.1" />
+
+  <!-- Kernel tree -->
+  <project path="kernel/xiaomi/surya" name="android_kernel_xiaomi_surya" remote="GloboPatro" revision="hybris-18.1" />
+
+  <!-- Vendor blobs -->
+  <project path="vendor/xiaomi/surya" name="proprietary_vendor_xiaomi_surya" remote="GloboPatro" revision="lineage-18.1" />
+      
+  <!-- HALs -->
+  <project path="rpm/" name="droid-hal-surya" remote="GloboPatro" revision="master" />
+  <project path="hybris/droid-configs" name="droid-config-surya" remote="GloboPatro" revision="master" />
+  <project path="hybris/droid-hal-version-surya" name="droid-hal-version-surya" remote="GloboPatro" revision="master" />
+
+  <remote name="GloboPatro"
+  fetch="https://github.com/GloboPatro/" /> 
+
+</manifest>
