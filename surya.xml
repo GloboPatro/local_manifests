@@ -21,7 +21,7 @@
   <!-- Patches -->
   <project path="hybris-patches" name="hybris-patches" remote="GloboPatro" revision="surya" />
 
-
+  <!-- -->
   <remote name="GloboPatro" fetch="https://github.com/GloboPatro/" /> 
 
 </manifest>
